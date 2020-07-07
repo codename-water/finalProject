@@ -1,0 +1,103 @@
+.container {
+	width: 75%;
+	margin: auto;
+	background-color: lightgray;
+	align-self: center;
+}
+
+/* picture */
+.profile-header {
+	align-items: center;
+}
+
+.profile-header .profile-img img {
+	padding-top: 20px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+/* name and designation */
+.profile-nav-info {
+	text-align: center;
+	color: #013369;
+}
+
+/* contact details */
+.contact {
+	text-align: center;
+}
+
+.contact i {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* specialization */
+#special li {
+	display: inline;
+	background-color: gainsboro;
+	padding-right: 4px;
+	padding-left: 4px;
+	/* border-left: 2px solid #013369;
+	border-right: 2px solid #013369; */
+}
+
+#special li:hover {
+	background-color: aliceblue;
+}
+
+/* section headings */
+.section-heading {
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.section-heading h3 {
+	color: red;
+	display: block;
+	text-decoration: underline;
+}
+
+.section-heading ul {
+	display: block;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.section-heading ul li {
+}
+
+.section-heading table {
+	display: block;
+	text-align: center;
+	margin: 20px;
+}
+
+.section-heading table thead th {
+	color: #013369;
+	border-bottom: 5px solid black;
+}
+
+.section-heading table tbody tr {
+	border-bottom: 2px solid black;
+}
+
+.section-heading table tbody tr:hover {
+	background-color: aliceblue;
+}
+
+.section-heading table tbody tr th {
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: rgb(54, 51, 51);
+	font-size: small;
+	font-weight: 400;
+}
